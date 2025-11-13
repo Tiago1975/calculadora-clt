@@ -1,0 +1,4 @@
+Copyright (c) 2025 Tiago de Paula
+Todos os direitos reservados.
+Este projeto é apenas para fins de teste e aprendizado.
+Não é permitida a redistribuição ou uso comercial sem autorização.

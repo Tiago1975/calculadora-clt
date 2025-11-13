@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #fff7f0;
+  color: #333;
+}
+header {
+  background: linear-gradient(90deg, #ff7300, #a300ff);
+  color: white;
+  padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+.calc, .upgrade, .ads {
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 400px;
+}
+button, .btn-pro {
+  background: #a300ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.ads {
+  background: #fff0d1;
+  font-weight: bold;
+  color: #ff7300;
+}

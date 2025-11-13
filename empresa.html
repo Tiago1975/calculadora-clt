@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Jornada CLT Empresarial</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Minha Jornada CLT Empresarial 🏢</h1>
+  </header>
+  <main>
+    <p>Assinatura ativa até: <strong>31/12/2025</strong></p>
+    <canvas id="graficoHoras" width="400" height="200"></canvas>
+    <a href="index.html">Voltar</a>
+  </main>
+  <script>
+    const ctx = document.getElementById('graficoHoras');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Seg', 'Ter', 'Qua', 'Qui', 'Sex'],
+        datasets: [{
+          label: 'Horas Trabalhadas',
+          data: [8, 7.5, 8, 6, 7],
+        }]
+      }
+    });
+  </script>
+</body>
+</html>
